@@ -36,6 +36,7 @@ export default {
         fadeIn:'fadeIn 0.5s ease-in-out',
       },
       backgroundImage:{
+        'sider-bg-halloween':'url("/img/halloween.jpg")',
         'silder-bg':'url("/img/coffee_gau_silder.jpg")',
         'product-card1':'url("/img/story1.jpg")',
         'product-card2':'url("/img/story2.jpg")',
