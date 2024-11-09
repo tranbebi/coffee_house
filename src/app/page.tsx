@@ -19,7 +19,6 @@ export default function Home() {
   const topMenuRef = useRef<HTMLUListElement | null>(null);
   const toggleMenuIconRef = useRef<SVGSVGElement | null>(null);
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-
   useEffect(() => {
     const handleClick = (e: MouseEvent) => {
       const topMenu = topMenuRef.current;
@@ -31,7 +30,6 @@ export default function Home() {
         setIsMenuOpen(false);
       }
     };
-
     document.addEventListener('click', handleClick);
     return () => {
       document.removeEventListener('click', handleClick);
